@@ -1,40 +1,19 @@
-header{
-            width: 100vw;
-            height: 70px;
-            background-color: black;
-        }
-        li{
-            list-style: none;
-            display: inline-block;
-            text-decoration: none;
-            color: wheat;
-            font-style: italic;
-            text-transform: capitalize;
-            font-family: 'Courier New', Courier, monospace;
-            padding-left: 50px;
-            
-        }
-        ul{
-            padding-left: 50px;
-            padding-top: 15px;
-        }
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        .left{
-            height: 80vh;
-            width: 40vw;
-            background-color: yellow;
-            /* float: left; */
-        }
-         .right{
-            height: 80vh;
-            width: 40vw;
+.box1{
+            height: 334px;
+            width: 345px;
             background-color: red;
-            /* float: right; */
+            float: left;
+          
+            
+
         }
-        .con{
-            display: flex;
-             justify-content: space-between; 
+        .box2{
+            height: 344px;
+            width: 345px;
+            background-color: green;
+            float: right;
+              clear: left
+            
+
+
         }
