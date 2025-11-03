@@ -1,19 +1,24 @@
-.box1{
-            height: 334px;
-            width: 345px;
+  .container{
+            display:grid;
+            background-color: yellow;
+          grid-gap: 9px;
+          grid-template-columns: auto auto ;
+          grid-row-gap: 9px;
+          grid-column-gap: 9px;
+          grid-template-rows: 400px 300px;
+          /* justify-content: center; */
+          /* align-content: center; */
+          /* width: 50vw;
+          height: 50vh; */
+          grid-column: 1/span3;
+        }
+     .item{
+        background-color: aqua;
+        border: 2px solid red;
+     }
+     @media screen   and (max-width:800px){
+        body{
             background-color: red;
-            float: left;
-          
-            
-
         }
-        .box2{
-            height: 344px;
-            width: 345px;
-            background-color: green;
-            float: right;
-              clear: left
-            
-
-
-        }
+        
+     }
