@@ -1,24 +1,16 @@
-  .container{
-            display:grid;
-            background-color: yellow;
-          grid-gap: 9px;
-          grid-template-columns: auto auto ;
-          grid-row-gap: 9px;
-          grid-column-gap: 9px;
-          grid-template-rows: 400px 300px;
-          /* justify-content: center; */
-          /* align-content: center; */
-          /* width: 50vw;
-          height: 50vh; */
-          grid-column: 1/span3;
-        }
-     .item{
-        background-color: aqua;
-        border: 2px solid red;
-     }
-     @media screen   and (max-width:800px){
-        body{
+
+        .container{
             background-color: red;
+            height: 455px;
         }
-        
-     }
+        .box{
+            border: 2px solid black;
+            transform: rotatez(90deg);
+              transform-origin: center;
+            transform: translate(34px);
+          
+            transform:rotate(45deg);
+            transform: scaleY(4);
+            transform: scaleX(5);
+            transform: skew(5deg,6deg);
+            transform: matrix(4 90deg 30   40); }
